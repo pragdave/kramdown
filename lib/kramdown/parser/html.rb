@@ -33,7 +33,7 @@ module Kramdown
         HTML_ENTITY_RE = /&([\w:][\-\w\.:]*);|&#(\d+);|&\#x([0-9a-fA-F]+);/
 
         HTML_CONTENT_MODEL_BLOCK = %w{address applet article aside button blockquote body
-             dd div dl fieldset figure figcaption footer form header hgroup iframe li map menu nav
+             dd details div dl fieldset figure figcaption footer form header hgroup iframe li map menu nav
               noscript object section td}
         HTML_CONTENT_MODEL_SPAN  = %w{a abbr acronym b bdo big button cite caption del dfn dt em
              h1 h2 h3 h4 h5 h6 i ins kbd label legend optgroup p q rb rbc
